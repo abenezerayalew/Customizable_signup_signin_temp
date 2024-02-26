@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../constants/colors.dart';
 import '/utils/theme/custom_themes/appbar_theme.dart';
 import '/utils/theme/custom_themes/bottom_sheet_theme.dart';
 import '/utils/theme/custom_themes/checkbox_theme.dart';
@@ -15,7 +16,7 @@ class MyAppTheme {
   static ThemeData lightTheme = ThemeData(
     fontFamily: 'Poppins',
     brightness: Brightness.light,
-    primaryColor: Colors.blue,
+    primaryColor: MyColors.primary,
     textTheme: MyTextTheme.lightTextTheme,
     chipTheme: MyChipTheme.lightChipTheme,
     scaffoldBackgroundColor: Colors.white,
