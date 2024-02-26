@@ -12,6 +12,12 @@ dependencies:
   flutter:
     sdk: flutter
   # Utitlity Packages
+  url_launcher: ^6.2.4
+  intl: ^0.19.0
+  http: ^1.2.0
+  logger: ^2.0.2+1
+  flutter_native_splash: ^2.3.10
+  smooth_page_indicator: ^1.1.0
 
   # Icons
   cupertino_icons: ^1.0.2
@@ -19,11 +25,7 @@ dependencies:
 
   # State Management
   get: ^4.6.6
-  url_launcher: ^6.2.4
-  intl: ^0.19.0
-  http: ^1.2.0
   get_storage: ^2.1.1
-  logger: ^2.0.2+1
 
   # Product Specific Packages
 
@@ -41,7 +43,7 @@ flutter:
   #------------- LOCAL ASSETS --------------#
   assets:
     - assets/logo/
-    - assets/images/
+    - assets/images/on_boarding_images/
     - assets/icons/brands/
 #------------- LOCAL ASSETS END --------------#
 

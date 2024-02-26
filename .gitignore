@@ -31,13 +31,23 @@ migrate_working_dir/
 .pub/
 /build/
 
+# linux/OS specific files
+/linux/
+# macOS specific files
+/macOS
+# Windows specific files
+/windows/
+# Web specific files
+/web/
 # Symbolication related
 app.*.symbols
 
 # Obfuscation related
 app.*.map.json
-
+# firebase related
+./firebase
 # Android Studio will place build artifacts here
+/android/
 /android/app/debug
 /android/app/profile
 /android/app/release
